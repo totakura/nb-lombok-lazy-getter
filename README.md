@@ -13,3 +13,12 @@ I checked this on my system with the following information
 * Cache directory: /home/totakura/.cache/netbeans/12.3
 
 To reproduce this issue, please open this project in Netbeans 12.3 or greater.
+
+Note the error log in Netbean's cache directory:
+
+```
+$ find ~/.cache/netbeans/12.3 -name "*.err"
+/home/totakura/.cache/netbeans/12.3/index/s416/errors/1/nb/lombok/lazy/getter/App.java.err
+$ cat /home/totakura/.cache/netbeans/12.3/index/s416/errors/1/nb/lombok/lazy/getter/App.java.err
+ERROR:11:variable greeting is already defined in class nb.lombok.lazy.getter.App
+```

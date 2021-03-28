@@ -22,3 +22,5 @@ $ find ~/.cache/netbeans/12.3 -name "*.err"
 $ cat /home/totakura/.cache/netbeans/12.3/index/s416/errors/1/nb/lombok/lazy/getter/App.java.err
 ERROR:11:variable greeting is already defined in class nb.lombok.lazy.getter.App
 ```
+
+This issue is now reported to Netbeans: https://issues.apache.org/jira/browse/NETBEANS-5512
